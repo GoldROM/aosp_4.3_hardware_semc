@@ -63,9 +63,7 @@ LOCAL_C_INCLUDES:= \
 	$(LOCAL_PATH)/../plugins \
 	$(call include-path-for, glib) \
 	$(call include-path-for, glib)/glib \
-	$(call include-path-for, dbus) \
-	$(LOCAL_PATH)/../../../../../device/sony/$(TARGET_DEVICE)/hardware \
-	$(LOCAL_PATH)/../../glib
+	$(call include-path-for, dbus)
 
 LOCAL_SHARED_LIBRARIES := \
 	libdl \

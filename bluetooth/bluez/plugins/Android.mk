@@ -20,12 +20,10 @@ LOCAL_CFLAGS:= \
 LOCAL_C_INCLUDES:= \
 	$(LOCAL_PATH)/../btio \
 	$(LOCAL_PATH)/../lib \
-	$(LOCAL_PATH)/../gdbus \
-	$(LOCAL_PATH)/../src \
-	$(call include-path-for, glib) \
-	$(call include-path-for, dbus) \
-	$(LOCAL_PATH)/../../glib \
-	$(LOCAL_PATH)/../../../../../device/sony/$(TARGET_DEVICE)/hardware \
+        $(LOCAL_PATH)/../gdbus \
+        $(LOCAL_PATH)/../src \
+        $(call include-path-for, glib) \
+        $(call include-path-for, dbus) \
 
 LOCAL_SHARED_LIBRARIES := \
 	libbluetoothd \
